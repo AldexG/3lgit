@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+.the_header {
+    background-color: rgb(46, 46, 45);
+    border: 2px solid rgb(107, 105, 101);
+    height: 100px;
+    position: fixed;
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+}
+
+img {
+    transition: transform 0.2s;
+    transform: scale(1);
+    border-radius: 15px;
+}
+
+img:hover {
+    
+    transform: scale(1.05);
+}
+
+.the_body {
+    padding: 10px;
+    background: linear-gradient(rgb(32, 32, 32)) , rgb(255, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.second_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 900px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.body_image {
+    margin-right: 150px;
+}
+
+.Parag {
+    height: 580px;
+    width: 500px;
+    background-color: rgb(24, 24, 24);
+    border: 5px solid rgb(92, 92, 92);
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 150px;
+    color: white;
+    text-align: center;
+}
+
+.Parag_2 {
+    height: 500px;
+    width: 800px;
+    background-color: rgb(24, 24, 24);
+    border: 5px solid rgb(92, 92, 92);
+    border-radius: 5px;
+    margin-right: 220px;
+    margin-left: 1px;
+    color: white;
+    text-align: center;
+}
+
+.left_images {
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.right_images {
+    margin-left: auto;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.border {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+}
